@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="top"></div> <!-- Add this line here -->
+
+     <header>
+        <h1>Welcome to my Portfolio</h1>
+        <div>
+              <a href="#About"><button class="button">About</button></a>
+            <a href="#Skills"><button class="button">Skills</button></a>
+            <a href="#Projects"><button class="button">Projects</button></a>
+            <a href="#Contact"><button class="button">Contact</button></a>     
+
+        </header>
+    </div>
+        
+    <main>
+        <section id="About">
+             <h1>Rajeev Gandhi Kavuri</h1>
+    <br>
+    <img src="rajeev.png" alt="Here is my image">
+    <p>
+       "I'm Rajeev Ia'm <strong>Senior Front-End Developer</strong> with over <strong>10</strong> years of experience in building scalable, responsive, and accessible <strong><em>web applications using React, Next.js, and TypeScript."</em></strong> 
+<br>Led SSR-based development using React/Next.js to improve SEO, page load speed, and user experience in enterprise platforms.
+
+<br>Built reusable component libraries with Tailwind CSS and Material UI, ensuring UI consistency and faster development cycles.
+<br>
+Integrated REST and GraphQL APIs for dynamic, real-time data experiences across complex user interfaces.
+    </p>
+
+        </section>
+        <section id="Skills">
+            <h1>My Skills</h1>
+    <ol>
+        <li><strong>Frontend Technologies:</strong></li>
+        <ul><li>React.js, Next.js, Angular (6+), AngularJS, JavaScript (ES6+), TypeScript, HTML5, CSS3, SCSS, jQuery</li></ul>
+        <li><strong>UI Libraries & Styling:</strong></li>
+        <ul><li>Tailwind CSS, Material UI, Styled Components, Bootstrap, Chart.js, Storybook</li></ul>
+        <li><strong>State Management:</strong></li>
+        <ul><li>Redux, Redux Toolkit, React Context API</li></ul>
+        <li><strong>Testing & Debugging:</strong></li>
+        <ul><li>Cypress, Jest, Lighthouse, Postman, Chrome DevTools</li></ul>
+        <li><strong>API Integration:</strong></li>
+        <ul><li>RESTful APIs, GraphQL, WebSocket</li></ul>
+        <li><strong>Build & DevOps:</strong></li>
+        <ul><li>Azure DevOps, Git, GitHub, Bitbucket, CI/CD Pipelines</li></ul>
+        <li><strong>Cloud Platforms:</strong></li>
+        <ul><li>Microsoft Azure (Azure AD, Azure DevOps), AWS (basic usage)</li></ul>
+        <li><strong>Backend & Full Stack:</strong></li>
+        <ul><Li>.NET Framework, .NET Core, Entity Framework, LINQ, Express.js (if applicable)</Li></ul>
+        <li><strong>Databases:</strong></li>
+        <ul><li>SQL Server, MongoDB</li></ul>
+        <li><strong>Accessibility & Standards:</strong></li>
+        <ul><li>WCAG 2.1, ADA, HIPAA Compliance</li></ul>
+        <li><strong>Development Methodologies:</strong></li>
+        <ul><li>Agile (Scrum), Waterfall, TDD, UAT</li></ul>
+    </ol>
+
+
+        </section>
+        <section id="Projects">
+            <h1>My Projects</h1>
+<table border="1">
+    <tr>
+        <th>Project</th>
+        <th>Role</th>
+        <th>Description</th>
+        <th>Year</th>
+    </tr>
+    <tr>
+        <td>Cigna health care</td>
+        <td>Senior frontend developer</td>
+        <td>Led development of HIPAA-compliant, SSR-based portals using React/Next.js with GraphQL integration and reusable UI libraries.</td>
+        <td>Jan-2024 to Present</td>
+    </tr>
+    <tr>
+        <td>BIAL</td>
+        <td>Senior frontend developer</td>
+        <td>Built real-time analytics dashboards using React and WebSocket for monitoring flights, baggage, and passenger flow.</td>
+        <td>Sep-2019_Apr-2023</td>
+    </tr>
+     <tr>
+        <td>Bluestar LTD</td>
+        <td>Full Stack developer</td>
+        <td>Created a role-based Angular SPA for dealers to manage SKUs and view product analytics through dynamic dashboards.</td>
+        <td>Jan-2017_Aug-2019</td>
+    </tr>
+    <tr>
+        <td>Bluestar LTD</td>
+        <td>Full Stack developer</td>
+        <td>Developed a service ticket management system with real-time tracking, dashboards, and regional SLA monitoring.</td>
+        <td>July-2014_Dec-2016</td>
+    </tr>
+</table>
+
+        </section>
+        <section id="Contact">
+            <h1>Contact Me </h1>
+    <p>Pleas feel to contact me </p>
+
+    <form action="" >
+        <div>
+
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+        </div>
+        <div>
+
+            <b>Choose your Gender</b>
+            <br>
+            <input type="radio" id="male" value="male">
+            <label for="male">male</label>
+            <input type="radio" id="female" value="female">
+            <label for="female">female</label>
+        </div>
+    <div>
+
+        <b>Select your interest</b>
+    </div>
+    <div>
+
+        <input type="checkbox" id="Coding" value="Coding">
+        <label for="coding">coding</label>
+        <input type="checkbox" id="reading" value="reading">
+        <label for="reading">reading</label>
+    </div>
+<div>
+
+    
+    <b>Biography</b>
+    <!-- <textarea placeholder="Fill 200 words" ></textarea> -->
+    <input type="text" id="biography" placeholder="Fill 200 words" maxlength="200">
+</div>
+<div>
+
+    <Br>
+        <button class="submit">Submit</button>
+    </div>
+    </form>
+                        
+        </section>
+    </main>
+
+    <a href="#top">
+            <button class="fixedbutton">Top</button>
+    </a>
+
+    <footer>
+        <p> @ 2025 My Portfolio</p>
+    </footer>        
+
+    </form>  
+    <script src="Javascript.js"></script>
+</body>
+</html>
